@@ -1,1 +1,1 @@
-Personal website created at CodePen.io, find it at https://codepen.io/gretayu/pen/PdXXJY.
+personal website created with CodePen.io, find it at https://yugreta.github.io
