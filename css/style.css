@@ -1,92 +1,76 @@
 body{
-  background-color:white;
   color:rgb(10, 35, 135);
-  font-family:Verdana, Sans-Serif;
+  font-family:font-family:Georgia, Serif;
 }
-p{
-  font-family:Georgia, Serif;
-}
-.banner{
+
+.side_space{
   max-width:80%;
   margin:0 auto;
 }
+
 header{
   background-color:rgb(81, 135, 236);
   color:white;
-  padding-top:15px;
   width:100%;
   position:fixed;
   top:0;
   left:0;
 }
-#name{
-  float:left;
-}
-header ul{
-  float:right;
-  margin:40px 0 0 0;
-  padding:0;
-  list-style-type:none;
-}
-header ul li{
-  margin:0;
-  padding:0;
-  list-style-type:none;
-  display:inline-block;
-}
-header ul li a{
-  margin:0;
-  padding:10px 20px;
-  display:block;
+header a{
   color:white;
-  font-weight:bold;
-  text-transform:uppercase;
-  text-decoration:none;
 }
-nav{
-  position:fixed;
-  margin-top:120px;
-  width:100%;
-  top:0;
-  left:0;
+header a:hover{
+  color:rgb(81, 180, 236);
+}
+
+.nav_bar{
+  color:white;
+  background-color:rgb(81, 180, 236);
+  float:right;
+  text-decoration:none;
+  font-size:0.5em;
+  padding:0.7em;
+  margin-top:3.5em;
+  margin-right:0.7em;
+}
+.nav_bar:hover{
+  color:white;
   background-color:rgb(81, 135, 236);
 }
-button{
-  font-family:Georgia, Serif;
-  background-color:rgb(81, 180, 236);
-  color:white;
-  border:none;
-  padding:10px;
-  float:right;
+
+.flex-container{
+  display:flex;
+  justify-content:center;
+  margin-top:8em;
 }
-#contents{
-  margin-top:160px;
-  margin-left:100px;
-  margin-right:100px;
+.flex-box{
+  flex:1;
 }
-#education td{
-  width:33%;
-  padding:10px;
-}
-#education h4{
+
+h4{
   margin-bottom:0;
 }
 .courses{
   margin-top:0;
-  font-size:0.8em;
+  font-size:0.9em;
 }
+
 footer{
   background-color:rgb(81, 180, 236);
   color:white;
-  font-family:Georgia, Serif;
   font-size:0.8em;
   text-align:right;
-  padding:10px 0;
-  margin-top:20%;
+  padding:0.8em;
+  
+  position:absolute;
+  bottom:0;
+  width:100%; 
 }
-.block{
-  background-color:white;
-  float: left;
-  width: 100%;
-  height: 400px;
+
+#page-container{
+  position:relative;
+  min-height:100vh;
+}
+#buffer{
+  padding-bottom:5em;
 }
