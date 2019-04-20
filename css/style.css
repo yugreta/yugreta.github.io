@@ -39,7 +39,7 @@ header a:hover{
 }
 
 #top_space1{
-  margin-top:10em;
+  margin-top:11em;
 }
 #top_space2{
   margin-top:10em;
@@ -84,6 +84,10 @@ footer{
 
 #rounded img{
   border-radius:50%;
+}
+
+img{
+  width:60%;
 }
 
 .mySlides{
