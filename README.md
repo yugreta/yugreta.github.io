@@ -1,1 +1,1 @@
-personal website created with CodePen.io, find it at https://yugreta.github.io
+my personal website https://yugreta.github.io
