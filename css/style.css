@@ -39,7 +39,7 @@ header a:hover{
 }
 
 #top_space1{
-  margin-top:11em;
+  margin-top:9.5em;
 }
 #top_space2{
   margin-top:10em;
@@ -86,7 +86,7 @@ footer{
   border-radius:50%;
 }
 
-img{
+#chubby img{
   width:60%;
 }
 
