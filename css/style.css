@@ -41,6 +41,9 @@ header a:hover{
 #top_space1{
   margin-top:9.5em;
 }
+#top_space2{
+  margin-top:11.5em;
+}
 
 .flex-container{
   display:flex;
