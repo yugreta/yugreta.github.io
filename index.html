@@ -5,13 +5,21 @@
     <title>Greta Yu</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍰</text></svg>">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <script src="https://kit.fontawesome.com/1b11864d01.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <div id="appearance">
-      <div><h3>💗  ✨  💙</h3></div><div id="dark-mode"><h3>☀️  🌕</h3></div>
+      <div>
+        <button onclick="setColor('pink')">💗</button>
+        <button onclick="setColor('#ffcc4d')">✨</button>
+        <button onclick="setColor('#57b3fc')">💙</button>
+      </div><div id="dark-btns">
+        <button onclick="light()">☀️</button>
+        <button onclick="dark()">🌕</button>
+      </div>
     </div>
 
     <div id="content">
@@ -30,13 +38,13 @@
         <h4>trying to cook and lockpick</h4>
         <h4>&nbsp;</h4>
         <h4>irl escape room count: 10</h4>
-        <h4>&nbsp;</h4>
-        <h4>pls support my sister on <a href="https://www.twitch.tv/pinkbunnylemon" target="_blank">Twitch</a></h4>
       </div>
     </div>
 
     <div id="credit">
       <h4>made by</h4><h6>a</h6><h4>Winnie the Pooh</h4><h6>fan</h6>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

@@ -1,101 +1,94 @@
-html {
-    background-attachment: fixed;
-    background-image: linear-gradient(pink, white);
+body {
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+    height: 60%;
+    width: 70%;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
 
     ::-webkit-scrollbar {
         width: 10px;
-    }
-    ::-webkit-scrollbar-thumb {
-        background: pink;
-        border-radius: 25px;
     }
     ::-webkit-scrollbar-track {
         border-radius: 25px;
     }
 
-    body {
-        font-family: "Roboto", sans-serif;
-        position: fixed;
-        height: 60%;
-        width: 70%;
-        left: 50%;
-        top: 15%;
-        transform: translateX(-50%);
-
-        #appearance {
-            div {
-                display: inline-block;
-                width: 50%;
-            }
-
-            #dark-mode {
-                text-align: right;
-            }
-        }
-
-        #content {
+    #appearance {
+        div {
             display: inline-block;
-            height: 85%;
-            width: 100%;
+            width: 50%;
 
-            .card {
-                background-color: white;
-                box-shadow: 0px 7px 4px pink;
-                border-radius: 25px;
-                display: inline-block;
-                height: 100%;
-                width: 46%;
-                vertical-align: top;
-            }
-            #about {
-                text-align: center;
-
-                h1 {
-                    font-size: 3.5em;
-                    margin-top: 1.5em;
-                }
-
-                a {
-                    color: black;
-                }
-                a+a {
-                    margin-left: 2em;
-                }
-
-                h3 {
-                    margin-top: 2em;
-                }
-            }
-            #updates {
-                margin-left: 7%;
-                overflow-x: hidden;
-                overflow-y: scroll;
-
-                h4 {
-                    margin: 1em 2.5em;
-
-                    small {
-                        font-size: x-small;
-                    }
-                }
-                h4:first-child {
-                    margin-top: 2.5em;
-                }
-
-                a {
-                    color: #8468d3;
-                    text-decoration: none;
-                }
+            button {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                margin: 0.5em;
             }
         }
 
-        #credit {
-            margin-top: 1em;
+        #dark-btns {
             text-align: right;
+        }
+    }
 
-            h4, h6 {
-                display: inline;
+    #content {
+        display: inline-block;
+        height: 85%;
+        width: 100%;
+
+        .card {
+            border-radius: 25px;
+            display: inline-block;
+            height: 100%;
+            width: 46%;
+            vertical-align: top;
+        }
+        #about {
+            text-align: center;
+
+            h1 {
+                font-size: 3.5em;
+                margin-top: 1.5em;
             }
+
+            a+a {
+                margin-left: 2em;
+            }
+
+            h3 {
+                margin-top: 2em;
+            }
+        }
+        #updates {
+            margin-left: 7%;
+            overflow-x: hidden;
+            overflow-y: scroll;
+
+            h4 {
+                margin: 1em 2.5em;
+
+                small {
+                    font-size: x-small;
+                }
+            }
+            h4:first-child {
+                margin-top: 2.5em;
+            }
+
+            a {
+                color: #8468d3;
+                text-decoration: none;
+            }
+        }
+    }
+
+    #credit {
+        margin-top: 1em;
+        text-align: right;
+
+        h4, h6 {
+            display: inline;
         }
     }
 }

@@ -1,0 +1,22 @@
+body {
+  --accent-color: pink;
+  background-attachment: fixed;
+  background-image: linear-gradient(var(--accent-color), white); }
+  body ::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 25px; }
+  body .card {
+    box-shadow: 0px 7px 4px var(--accent-color);
+    background-color: white; }
+  body #about a {
+    color: black; }
+
+body.dark {
+  background-image: linear-gradient(black, var(--accent-color));
+  color: white; }
+  body.dark .card {
+    background-color: black; }
+  body.dark #about a {
+    color: white; }
+
+/*# sourceMappingURL=colors.css.map */
