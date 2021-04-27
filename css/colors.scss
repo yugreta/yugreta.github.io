@@ -33,3 +33,12 @@ body.dark {
         }
     }
 }
+
+@media screen and (max-width: 415px) {
+    body, body.dark {
+        .card {
+            box-shadow: none;
+            background-color: transparent;
+        }
+    }
+}

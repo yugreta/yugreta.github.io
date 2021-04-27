@@ -21,7 +21,6 @@ body {
   body #appearance #dark-btns {
     text-align: right; }
   body #content {
-    display: inline-block;
     height: 85%;
     width: 100%; }
     body #content .card {
@@ -49,13 +48,38 @@ body {
           font-size: x-small; }
       body #content #updates h4:first-child {
         margin-top: 2.5em; }
-      body #content #updates a {
-        color: #8468d3;
-        text-decoration: none; }
   body #credit {
     margin-top: 1em;
     text-align: right; }
     body #credit h4, body #credit h6 {
       display: inline; }
+
+@media screen and (max-width: 415px) {
+  body {
+    position: static;
+    height: auto;
+    width: 100%;
+    transform: none; }
+    body #appearance {
+      margin-top: 50px; }
+      body #appearance div, body #appearance #dark-btns {
+        display: block;
+        width: 100%;
+        text-align: center; }
+    body #content {
+      height: auto; }
+      body #content .card {
+        display: block;
+        height: auto;
+        width: 100%; }
+      body #content #about {
+        margin-bottom: 75px; }
+        body #content #about h1 {
+          margin-top: 25px; }
+      body #content #updates {
+        margin-left: 0;
+        overflow: visible; }
+    body #credit {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */

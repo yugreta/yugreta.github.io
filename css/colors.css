@@ -19,4 +19,9 @@ body.dark {
   body.dark #about a {
     color: white; }
 
+@media screen and (max-width: 415px) {
+  body .card, body.dark .card {
+    box-shadow: none;
+    background-color: transparent; } }
+
 /*# sourceMappingURL=colors.css.map */
