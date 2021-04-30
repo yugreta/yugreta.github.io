@@ -32,20 +32,26 @@
         <h3>munching on 🍫🍰🍞🍦</h3>
       </div>
 
-      <div class="card" id="updates">
-        <h4>building tofupop, a Depop bot</h4>
-        <h4>reading The Awakening by Kate Chopin</h4>
-        <h4>listening to J. Cole <small>2 hours ago</small></h4>
-        <h4>trying to cook and lockpick</h4>
-        <h4>&nbsp;</h4>
-        <h4>irl escape room count: 10</h4>
-      </div>
+      <div class="card" id="updates"></div>
     </div>
 
     <div id="credit">
       <h4>made by</h4><h6>a</h6><h4>Winnie the Pooh</h4><h6>fan</h6>
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCGOpb7u_mT-9CXQVsYDD1mMXNhJuPiEtY",
+        authDomain: "gretayu.firebaseapp.com",
+        projectId: "gretayu",
+        appId: "1:419129051501:web:a6ce77fb0d83532b3db264"
+      };
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
     <script src="index.js"></script>
   </body>
 </html>
